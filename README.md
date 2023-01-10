@@ -4,7 +4,7 @@ With this plugin you can keep track of what your big macros are doing. It helps 
 
 It creates a panel on (Octoprint)[https://octoprint.org/]'s UI with every step (or GCODE command) of your MACRO and updates it on the fly:
 
-
+![MacroSteps Plugin sidebar](https://github.com/SinisterRj/OctoPrint-Macrosteps/raw/main/Pictures/MS.jpg)
 
 If you don't know what MACRO means, take a look into this if you are using [Klipper](https://www.klipper3d.org/) firmware:
 
