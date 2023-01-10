@@ -1,0 +1,30 @@
+/* TODO: Have your plugin's CSS files generated to here. */
+
+.MSTableHeader {
+    border-collapse: collapse;
+    border: 0px solid;
+    margin: 0px 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.MSTable {
+    border-collapse: collapse;
+    border: 0px solid;
+    margin: 0px 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-bottom: 10px;
+
+}
+
+.MSCell {
+	border-collapse: collapse;
+	border: 0px solid;
+	padding: 5px !Important;
+	padding-left: 0px;
+}
+
+.MSCenter {
+	text-align: center;
+	vertical-align: middle;
+}

@@ -1,0 +1,27 @@
+<div id="MacroSteps" >
+  <div data-bind="foreach: macros">
+    <table class="table MSTableHeader" width="100%">
+        <colgroup>
+          <col width="100%">
+          <col width="23">
+        </colgroup>
+      <tr>
+          <td class="MSCell"><strong><span data-bind="text: label"></span></strong></td>
+          <td class="MSCell MSCenter"><i data-bind="class: icon(), style: {color: color()}"></i></td>
+      </tr>
+    </table><table class="table MSTable" width="100%">
+        <colgroup>
+          <col width="24">
+          <col width="100%">
+          <col width="23">
+        </colgroup>
+      <tbody data-bind="foreach: steps">
+        <tr>
+          <td class="MSCell MSCenter"><span data-bind="text: stepid()"></span></td>
+          <td class="MSCell"><span data-bind="text: label()"></span> <i class="icon-warning-sign" style="color: #FFD21C" data-bind="visible: warning(), attr:{title: warningMsg()}"></i></td>
+          <td class="MSCell MSCenter"><i data-bind="class: icon(), style: {color: color()}"></i></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
