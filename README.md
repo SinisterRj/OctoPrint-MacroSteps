@@ -2,7 +2,7 @@
 A Simple Octoprint plugin that enables you to follow the steps of your big macros.
 With this plugin you can keep track of what your big macros are doing. It helps also to diagnose when something went wrong.
 
-It creates a panel on [Octoprint](https://octoprint.org/)'s UI with every step (or GCODE command) of your MACRO and updates it on the fly:
+It creates a sidepanel on [Octoprint](https://octoprint.org/)'s UI with every step (or GCODE command) of your MACRO and updates it on the fly:
 
 ![MacroSteps Plugin sidebar](https://github.com/SinisterRj/OctoPrint-Macrosteps/raw/main/Pictures/MS.jpg)
 
