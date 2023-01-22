@@ -18,6 +18,14 @@
  * 
  * 
  *  Change log:
+ *
+ * Version 0.1.1
+ * 01/22/2023
+ * 1) Fix a bug that duplicate steps when a new Octoprint instance is opened;
+ * 2) Fix plugin name on setup.py.
+ *
+ * Version 0.1.0 - Initial Release
+ * 01/13/2023
 '''
 
 # coding=utf-8
@@ -324,6 +332,7 @@ class MacrostepsPlugin(
 
     def forceRenew(self):
         if len(self.macros) > 0:
+            self._plugin_manager.send_plugin_message(self._identifier, {"cmd": "clearall"})
             for macro in self.macros:
                 self._plugin_manager.send_plugin_message(self._identifier, {"cmd": "addmacro", "macroid": macro.idnum, "label":macro.label})
             
