@@ -20,7 +20,7 @@ https://plugins.octoprint.org/plugins/macro/
 
 Just add this to the begining of your macro or start gcode:
 
-P.S.: If you're running klipper, be shure to create a [respond] section on your printer.cfg file to enable M118 Gcode.
+P.S.: If you're running klipper, be shure to create a **[respond]** section on your printer.cfg file to enable M118 Gcode.
 
 ```
 M118 $MS create macroid=1 label="Print Start"
