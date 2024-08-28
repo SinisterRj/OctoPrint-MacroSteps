@@ -42,4 +42,5 @@ For more info and available commands, check the [Wiki](https://github.com/Sinist
 
 
 Se você é brasileiro 🇧🇷, junte-se a nós no Discord:
-https://discord.com/invite/pUpXTrJ83D
+https://discord.gg/3DyXfGwWJY
+
