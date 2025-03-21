@@ -39,8 +39,3 @@ M118 $MS nextstep macroid=1
 And now just run your macro and have fun!
 
 For more info and available commands, check the [Wiki](https://github.com/SinisterRj/OctoPrint-Macrosteps/wiki).
-
-
-Se você é brasileiro 🇧🇷, junte-se a nós no Discord:
-https://discord.gg/3DyXfGwWJY
-
